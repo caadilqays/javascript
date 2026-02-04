@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Construction To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="main-nav">
+  <h2>Simple To-Do</h2>
+  <ul>
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <h1>Construction To-Do List</h1>
+  <p class="subtitle">Manage daily construction tasks easily</p>
+
+  <!-- User Feedback -->
+  <div id="message"></div>
+
+  <!-- Input Form -->
+  <form id="taskForm">
+    <input type="text" id="taskName" placeholder="Task name">
+
+    <select id="category">
+      <option value="">Select category</option>
+      <option value="Foundation">Foundation</option>
+      <option value="Electrical">Electrical</option>
+      <option value="Plumbing">Plumbing</option>
+      <option value="Painting">Painting</option>
+    </select>
+
+    <input type="date" id="deadline">
+    <button type="submit">Add Task</button>
+  </form>
+
+  <!-- Task List -->
+  <h2>Task List</h2>
+  <ul id="taskList"></ul>
+</div>
+
+<script src="script.js"></script>
+
+<footer>
+  <p>&copy; 2026 Adil Nor Hilowle. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

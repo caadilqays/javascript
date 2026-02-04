@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}
+
+form input, form select, form button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+}
+
+button {
+  background: orange;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkorange;
+}
+
+#message {
+  margin: 10px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+li {
+  list-style: none;
+  background: #eee;
+  margin: 6px 0;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-buttons button {
+  margin-left: 5px;
+  padding: 4px 6px;
+}
+footer{
+    background: darkorange;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* ===== NAVIGATION ===== */
+.main-nav {
+  background: #222;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav h2 {
+  margin: 0;
+  color: orange;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.main-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a.active {
+  color: orange;
+}
+
+/* ===== ABOUT PAGE ===== */
+.about-section h3 {
+  margin-top: 20px;
+  color: darkorange;
+}
+
+.about-list li {
+  margin: 6px 0;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.skills li {
+  background: #eee;
+  padding: 6px;
+  border-radius: 5px;
+  text-align: center;
+}
